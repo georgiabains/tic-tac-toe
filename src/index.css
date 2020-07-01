@@ -3,19 +3,6 @@ body {
   margin: 20px;
 }
 
-p {
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
-  width: calc(100% / 4);
-  text-align: center;
-  display: inline-block;
-}
-
-p.board-num {
-  width: 34px;
-  position: absolute;
-}
-
 ol, ul {
   padding-left: 30px;
 }
@@ -24,6 +11,19 @@ ol, ul {
   clear: both;
   content: "";
   display: table;
+}
+
+.board-row p {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  width: calc(100% / 4);
+  text-align: center;
+  display: inline-block;
+}
+
+.board-row p.board-num {
+  width: 34px;
+  position: absolute;
 }
 
 .status {
